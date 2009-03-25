@@ -1,0 +1,21 @@
+<ol>
+  <li>
+    <%= button_to "Send First Email", :action => 'create', :email_id => 'first', :theme => params[:theme] %>
+  </li>
+  
+  <li>
+    <%= button_to 'Send Second Email', :action => 'create', :email_id => 'second', :theme => params[:theme] %>
+  </li>
+  
+  <li>
+    <%= button_to 'Send Third Email', :action => 'create', :email_id => 'third', :theme => params[:theme] %>
+  </li>
+  
+  <li>
+    <%= button_to 'Send Fourth Email', :action => 'create', :email_id => 'fourth', :theme => params[:theme] %>
+  </li>
+  
+  <li>
+    <%= button_to 'Send Fifth Email', :action => 'create', :email_id => 'fifth', :theme => params[:theme] %>
+  </li>
+</ol>

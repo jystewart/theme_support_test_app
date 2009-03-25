@@ -1,0 +1,2 @@
+class AnotherWithLayoutController < ApplicationController
+end

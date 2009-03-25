@@ -1,0 +1,15 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+   <head>
+      <title></title>
+      <%= theme_stylesheet_link_tag 'sample' %>
+      <%= theme_javascript_include_tag 'sample' %>
+   </head>
+   <body>
+     <h1>My Themed Page</h1>
+      <%= yield %>
+      
+      <%= theme_image_tag 'preview.png' %>
+   </body>
+</html>
