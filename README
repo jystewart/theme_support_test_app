@@ -1,0 +1,12 @@
+== Theme Support Test App ==
+
+This is a barebones app designed to test the theme_support plugin:
+
+http://github.com/jystewart/theme_support/tree/master
+
+To use it grab it from git and run 
+
+rake:features
+
+That will run through a series of cucumber tests to make sure the 
+responses are as expected.
