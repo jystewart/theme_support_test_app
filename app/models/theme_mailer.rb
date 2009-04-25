@@ -16,7 +16,7 @@ class ThemeMailer < ActionMailer::Base
   end
   
   def setup_email
-    @subject = 'Sample emal'
+    @subject = 'Sample email'
     @recipients = "citizen@example.org"
   end
   
