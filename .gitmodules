@@ -1,0 +1,3 @@
+[submodule "vendor/plugins/theme_support"]
+	path = vendor/plugins/theme_support
+	url = git://github.com/jystewart/theme_support.git
